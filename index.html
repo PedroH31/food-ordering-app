@@ -1,0 +1,59 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+       <link rel="stylesheet" href="index.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body class="spacing">
+        <header>
+            <div>
+                <h1 class="spacing">Jimmy's Diner</h1>
+                <h3 class="spacing">The best burgers and pizzas in town.</h3>
+            </div>
+        </header>
+        
+        <main>
+            <section class="food-section">
+                <div id="menu">
+                    
+                </div>
+            </section>
+            
+            
+            <section class="hidden" id="order-section">
+                <div class="order container-spacing" id="order-details">
+                    
+                    <h2 class="align-center order-spacing item-title-font">Your order</h2>
+                    
+                </div>
+                
+                <div class="container-spacing">
+                    <div class="order-description description">
+                        <h2 class="mid-font bold">Total price:</h2>
+                        <h3 class="price mid-font bold" id="total-price-el"></h3>  
+                    </div>
+                    <button class="complete-order-btn" id="complete-order-btn">Complete order</button>
+                </div>  
+            </section>
+        </main>
+        <div class="modal" id="modal">
+            <h2 class="form-title">Enter card details</h2>
+            <form class="card-details-form " id="card-details-form">
+                <input type="text" name="fullName" placeholder="Enter your name" required/>
+                <input type="text" name="cardNumber" placeholder="Enter card number" required/>
+                <input type"text" name="cardCvv" placeholder="Enter CVV" required/>
+                <div class="modal-submit-btn">
+                    <button type="submit" class="form-pay-btn" id="form-pay-btn" data-pay="payBtn">Pay</button>
+                </div>
+            </form> 
+            
+        </div>  
+        
+        <div class="thanks-message-container" id="thanks-message-container">
+            <h2 class="thanks-message" id="thanks-message"></h2>
+        </div>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

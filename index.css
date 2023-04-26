@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    font-family: 'Smythe', cursive;
+} 
+
+header {
+    background-image: url("img/burger-bg.png");
+    background-size: 100%;
+    color: #FFFF;
+    padding: 40px 0 68px 30px;
+    background-repeat: no-repeat;
+
+
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+.item-img {
+    width: 50px;
+    height: 50px;
+    margin: 30px 20px 0 0 ;
+}
+
+.menu-item {
+    display: flex;
+    border-bottom: 1px solid #D4D4D4;
+}
+
+section {
+    margin: 0;
+}
+
+.item-description {
+    
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+.description {
+    margin-top: 10px;
+}
+
+.add-btn {
+    margin: auto 0 auto auto ;
+    padding: 8px 10px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    border: 1px solid #D4D4D4;
+}
+
+.remove-btn {
+    margin: 7px 0 0 0;
+    background: none;
+    border: none;
+    color: #D4D4D4;
+    font-size: 12px;
+}
+
+.small-font {
+    font-size: 16px;
+}
+
+.mid-font {
+    font-size: 20px;
+}
+
+.item-title-font {
+    font-size: 28px;
+}
+
+.bold {
+    font-weight: 700
+}
+
+.order {
+    border-bottom: 2px solid #393333;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.order-spacing {
+    margin: 30px 0 40px
+}
+
+.container-spacing {
+    margin: 0 30px;
+}
+
+.order-description {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.price {
+    margin: 0 0 0 auto
+}
+
+.hidden {
+    display: none;
+}
+
+.complete-order-btn {
+    margin-top: 30px;
+    width: 100%;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.modal {
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    height: 424.24px;
+    width: 424px;
+    background-color: white;
+    box-shadow: 0 0 100px #393333;
+    border-radius: 4px;
+    padding: 0 2px 25px 
+}
+
+.modal-inner {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.form-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px ;
+    text-align: center;
+    
+}
+
+.form-pay-btn {
+    margin: 30px 15px 10px;
+    padding: 15px 183px;
+    color: white;
+    background-color: #16DB99;
+    border: none;
+    border-radius: 4px;
+}
+
+input {
+    padding: 15px 80px;
+    margin: 10px 15px; 
+    text-align: left;   
+}
+
+.thanks-message {
+    display: none;
+    background-color: #ECFDF5;
+    color:#065F46;
+    text-align: center;
+    padding: 10px 0 30px;
+    margin: 40px 30px;
+}
